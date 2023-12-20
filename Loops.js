@@ -14,7 +14,7 @@ for (const i of greetings) {
 
 //foreach loop
 
-
+///================================================///
 //MAPs
 
 const map = new Map()
@@ -48,3 +48,45 @@ const array = [32,23,43,45,67]
 for (const key in array) {
     console.log(array[key]);
 }
+
+//foreach loop
+array.forEach( function (item){
+    console.log(item*2)
+} )
+
+//foreachloop with arrow
+
+array.forEach((value)=> {
+    console.log(value*5);
+})
+
+/////
+//can inject a function into forEach loop.
+// for each have items,index,whole array.
+
+array.forEach((item,index, arr) => {
+    console.log(item,index,arr);
+})
+
+
+/// object looping again
+
+const myCoding = [
+    {
+        skill:'HTML',
+        yearsExp:10
+    },
+    {
+        skill:'CSS',
+        yearsExp:8
+    },
+    {
+        skill:'JavaScript',
+        yearsExp:5
+    }
+]
+
+myCoding.forEach((item)=>{
+    console.log(item.skill);
+    console.log(item.yearsExp);
+})
