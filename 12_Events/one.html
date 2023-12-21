@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+
+    document.getElementById('owl').onclick = function () {
+        alert("owl clicked")
+    }
+
+    document.getElementById('owl').addEventListener('click', function(){
+        alert('owl clicked again')
+    },false)
+
+    document.getElementById('owl').addEventListener('click', function(e){
+        console.log(e);
+    },false)
+
+    //attach event ()
+    //jquuery-on event
+
+
+    // type, timestamp, defaultPrevented, target , toElement, srcElement, currentTarget, clientX, clientY, screenY, altkey, ctrlkey, shiftkey, keycode
+
+    //Event Propogation is - event bubbling(inside to outside)(when false), event capturing(outside to inside)(when true)
+    // stop propogation 
+    // prevent default 
+    </script>
+</html> 
