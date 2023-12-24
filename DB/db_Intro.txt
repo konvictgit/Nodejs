@@ -4,10 +4,30 @@ CRUD - create,read,update,delete
 
 
 Non - RelationDB - anything that is non relational for eg, api response in JSON, Documents,Graphs
-
+1. mongoDB,dynamoDb,cassandra,firebase
 
 Relation DB - all data inside table and keys
 
 1. mysql,oracle,postgreSQL
 
 SQL - strucutral query lang.
+
+
+DB- Query => query are request made to the db managment system for specific info.
+
+
+Student     Column `||`
+
+StudentID   name    major
+1           jack    biology      <== ROW
+2           kate    sociology   
+3           claire  english 
+4           jack    biology
+5           mike    comp. sci
+
+
+Primary key = something we need to identify seperately for evey row or every table 
+                as in above we needed for "JACK" we have 2 jack in same field.
+(number or string or anything can be a key depend on use)
+
+
