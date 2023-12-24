@@ -52,3 +52,8 @@ and from that Branch table we can see that branch manager is 100
 This is relationalship with the table due to Foreign Key.
 
 * so in supervise_id you can see that may and harry are working under jan 
+
+DQL - Data query lang 
+DDL - Data defination lang
+DCL - Data Control lang
+DML - Data manupulation lang
