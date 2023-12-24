@@ -1,0 +1,13 @@
+DBMS - is a software to store informantion to do CRUD operation on data.
+
+CRUD - create,read,update,delete
+
+
+Non - RelationDB - anything that is non relational for eg, api response in JSON, Documents,Graphs
+
+
+Relation DB - all data inside table and keys
+
+1. mysql,oracle,postgreSQL
+
+SQL - strucutral query lang.
