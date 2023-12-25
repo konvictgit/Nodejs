@@ -57,3 +57,8 @@ DQL - Data query lang
 DDL - Data defination lang
 DCL - Data Control lang
 DML - Data manupulation lang
+
+
+Queries:=>
+///////////postgreSQL\\\\\\\\\\\\
+
